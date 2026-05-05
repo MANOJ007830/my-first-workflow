@@ -4,8 +4,9 @@ on:
     branches: [main]
 jobs: 
   Demo:
-    run-on: Ubuntu 
+    run-on: ubuntu-latest 
     
 steps:
  - name: greeting
       run: echo "hello from apun"
+ 
