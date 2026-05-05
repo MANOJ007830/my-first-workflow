@@ -1,10 +1,11 @@
 Name: Manojasnwal
 on:
-Push:
-branches: [main]
+ Push:
+    branches: [main]
 jobs: 
-Demo:
-run-on: Ubuntu 
+  Demo:
+    run-on: Ubuntu 
+    
 steps:
- - name: greeting
- run: echo "hello from apun"
+ -name: greeting
+      run: echo "hello from apun"
