@@ -1,0 +1,10 @@
+Name: Manojasnwal
+on:
+Push:
+branches: [main]
+jobs: 
+Demo:
+run-on: Ubuntu 
+steps:
+ - name: greeting
+ run: echo "hello from apun"
